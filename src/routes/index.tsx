@@ -5,7 +5,7 @@ export default component$(() => {
   return (
     <div class="min-h-screen bg-black text-white overflow-x-hidden">
       {/* Hero Section */}
-      <section class="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 bg-cover bg-center bg-no-repeat " style={{ backgroundImage: "url('/hero.jpg')" }}>
+      <section class="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 bg-cover bg-center bg-no-repeat " style={{ backgroundImage: "url('./hero.jpg')" }}>
         {/* Background Image */}
         {/* <div class="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/hero.jpeg')" }}  ></div> */}
         {/* Animated Gradient Overlay */}
@@ -26,7 +26,7 @@ export default component$(() => {
             <div class="text-center lg:text-left">
               <div class="animate-fade-in-up">
                 <h1 class="flex items-center justify-center lg:justify-start gap-4 text-5xl sm:text-6xl lg:text-7xl font-black mb-6 bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent leading-tight">
-                  <img src="/logo.svg" alt="Seyfr Logo" class="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24" />
+                  <img src="./logo.svg" alt="Seyfr Logo" class="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24" />
                   Seyfr
                 </h1>
                 <p class="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 text-white">
@@ -58,7 +58,7 @@ export default component$(() => {
             <div class="flex justify-center lg:justify-end">
               <div class="relative">
                 <img 
-                  src="/share.png" 
+                  src="./share.png" 
                   alt="Seyfr File Sharing Illustration" 
                   class="max-w-full h-auto w-96 lg:w-[500px] animate-float"
                   style="animation-delay: 0.3s;"
